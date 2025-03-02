@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, ContextTypes, Application, filters
 from os import getenv
 from dotenv import load_dotenv
-from google import genai
+import google.generativeai as genai
 import re
 
 
